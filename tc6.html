@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML List Tags</title>
+    <style>
+        h1 {
+            padding: 10px;
+            background-color: green;
+            color: white;
+        }
+        h3 {
+            color: red;
+        }
+        a {
+            color: green;
+            text-decoration: underline;
+        }
+        ul li:nth-child(even), ol li:nth-child(even) {
+            background-color: rgb(173, 216, 230);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 14pt;
+        }
+        th {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML List Tags</h1>
+    
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Step 1</li>
+        <li>Step 2</li>
+        <li>Step 3</li>
+        <li>Step 4</li>
+    </ol>
+    
+    <h3>Definition List</h3>
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>HyperText Markup Language</dd>
+        <dt><b>CSS</b></dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt><b>JS</b></dt>
+        <dd>JavaScript</dd>
+    </dl>
+</body>
+</html>
